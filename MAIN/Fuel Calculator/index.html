@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Fuel Calculator</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"> </script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+<div class="header">
+<u>Choose Language</u>
+<div class="fahne"><a href="LU.html"> <img src="Letz.png" width="50" height="42" hspace=10 > </a></div>
+<div class="fahne"><a href="FR.html"> <img src="France.png" width="50" height="42" hspace=10 > </a></div>
+<div class="fahne"><a href="DE.html"> <img src="Germany.png" width="50" height="42" hspace=10 > </a></div>
+<div class="fahne"><a href="index.html"> <img src="England.png" width="50" height="42" hspace=10 > </a></div>
+<div class="fahne"><a href="AL.html"> <img src="Albania.png" width="50" height="42" hspace=10 > </a></div>
+</div>
+
+<h1>CALCULATE THE COST OF YOUR RIDE</h1>
+<hr>
+<div class="design1">Consumption in L/100km: <input type="number" id="number1"></input></div>
+<div class="design1">Distance in km: <input type="number" id="number2"></input></div>
+<div class="design1">Actual fuel price: <input type="number" id="number3"></input></div>
+<hr>
+<div class="design1">You will have to pay: <input type="number" id="result" readonly></input></div>
+<hr>
+<button onclick="result()">Result</button>
+<button onclick="clearFunction()">Clear</button>
+
+<a class="homeButton" href="../index.html" target="_blank"> Home</a>
+
+</body>
+</html>
+

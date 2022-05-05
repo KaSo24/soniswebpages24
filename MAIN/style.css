@@ -1,0 +1,74 @@
+body{
+	background-color: grey;
+	font-family: sans-serif;
+}
+
+
+.topnav {
+  background-color: green;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+.topnav a:hover {
+  background-color: #6495ED;
+  
+}
+
+
+.topnav a.active {
+  background-color: #00008B;
+  color: white;
+}
+
+.denContainer{
+	margin-top: 110px;
+	
+}
+
+
+.button{
+	border:none;
+	display:inline-block;
+	justify-content: space-around;
+	
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	
+	
+	margin-bottom: 100px;
+	margin-right: 10%;
+	margin-left: 10%;
+	
+	vertical-align:middle;
+	overflow:hidden;
+	color:white;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	background-color: #009688;
+	text-decoration: none;
+	font-size: 30px;
+	display: block;
+	
+}
+
+	
+.button:hover{background-color:#57595D}
+
+
+
