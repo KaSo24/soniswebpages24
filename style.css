@@ -21,10 +21,14 @@ body{
 }
 
 
-.topnav a:hover {
-  background-color: #6495ED;
-  
-}
+
+
+
+@media (hover: hover) {
+    .topnav a:hover {
+      background-color: #6495ED;
+    }
+  }
 
 
 .topnav a.active {
