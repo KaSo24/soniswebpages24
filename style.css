@@ -21,20 +21,23 @@ body{
 }
 
 
-
-
-
 @media (hover: hover) {
     .topnav a:hover {
       background-color: #6495ED;
     }
-  }
+	
+	.button:hover {
+		background-color: #57595D;
+	}
+		
+ }
 
 
 .topnav a.active {
   background-color: #00008B;
   color: white;
 }
+
 
 .denContainer{
 	margin-top: 110px;
@@ -47,16 +50,11 @@ body{
 .button{
 	height: 100px;
 	width: 60%;
-	
 	margin-left: 40%;
 	margin-right: 40%;
 	margin-bottom: 100px; 
-	
 	border: 5px solid #00008B;
-	
 	padding-top: 50px;
-	
-	
 	color:white;
 	background-color: #009688;
 	text-align:center;
@@ -67,7 +65,7 @@ body{
 }
 
 	
-.button:hover{background-color:#57595D}
+
 
 
 

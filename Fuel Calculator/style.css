@@ -1,5 +1,6 @@
 body {
 background-color: yellow;
+font-family: tahoma, sans-serif;
 }
 
 .design1 {
@@ -33,19 +34,12 @@ button{
 }
 
 .homeButton{
-	border:none;
-	display:inline-block;
-	justify-content: space-around;
 	font-family: tahoma, sans-serif;
 	padding: 25px 25px 25px 25px ;
-	margin-top:100px;
-	margin-right: 10%;
+	margin-top: 75px;
 	margin-left: 10%;
-	vertical-align:middle;
-	overflow:hidden;
+	margin-right: 10%;
 	text-align:center;
-	cursor:pointer;
-	white-space:nowrap;
 	background-color: grey;
 	text-decoration: none;
 	font-size: 30px;
