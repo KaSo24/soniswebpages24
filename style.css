@@ -39,32 +39,27 @@ body{
 .denContainer{
 	margin-top: 110px;
 	
+	width: 75%;
+	
 }
 
 
 .button{
-	border:none;
-	display:inline-block;
-	justify-content: space-around;
+	height: 100px;
+	width: 60%;
+	
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 100px; 
+	
+	border: 5px solid #00008B;
 	
 	padding-top: 50px;
-	padding-right: 30px;
-	padding-bottom: 50px;
-	padding-left: 80px;
 	
 	
-	margin-bottom: 100px;
-	margin-right: 10%;
-	margin-left: 10%;
-	
-	vertical-align:middle;
-	overflow:hidden;
 	color:white;
-	background-color:inherit;
-	text-align:center;
-	cursor:pointer;
-	white-space:nowrap;
 	background-color: #009688;
+	text-align:center;
 	text-decoration: none;
 	font-size: 30px;
 	display: block;
