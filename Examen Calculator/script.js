@@ -72,3 +72,27 @@ function clearFunction3() {
 	result3.value = "";
 	
 };
+
+function result4() {
+  var number8 = document.getElementById("number8");
+  var number9 = document.getElementById("number9");
+  
+  var result4 = document.getElementById("result4");
+  
+  result4.value = (3*Number(number9.value) - Number(number8.value)) / 2
+  
+};
+
+
+function clearFunction4() {
+	
+	var number8 = document.getElementById("number8");
+	var number9 = document.getElementById("number9");
+	
+	var result4 = document.getElementById("result4");
+	
+	number8.value = "";
+	number9.value = "";
+	result4.value = "";
+	
+};

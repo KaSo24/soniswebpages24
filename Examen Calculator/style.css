@@ -43,3 +43,15 @@ a {
 	text-decoration: none;
 	color: white;
 }
+
+.specialHR {
+	height: 20px;
+	background-color: #adadad;
+	border: none;
+}
+
+hr {
+	height: 3px;
+	background-color: #adadad;
+	border: none;
+}
