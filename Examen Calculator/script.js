@@ -1,5 +1,3 @@
-
-
 function result() {
 	var number1 = document.getElementById("number1");
 	var number2 = document.getElementById("number2");
@@ -15,7 +13,7 @@ result.value = (Math.ceil(formule * 2) / 2)
 function clearFunction() {
 	
 	var number1 = document.getElementById("number1");
-	var number2 = document.getElementById("number2")
+	var number2 = document.getElementById("number2");
 	var result = document.getElementById("result");
 	
 	number1.value = "";
@@ -39,8 +37,8 @@ function result2() {
 function clearFunction2() {
 	
 	var number3 = document.getElementById("number3");
-	var number4 = document.getElementById("number4")
-	var number5 = document.getElementById("number5")
+	var number4 = document.getElementById("number4");
+	var number5 = document.getElementById("number5");
 	var result2 = document.getElementById("result2");
 	
 	number3.value = "";
@@ -50,6 +48,27 @@ function clearFunction2() {
 	
 };
 
+function result3() {
+  var number6 = document.getElementById("number6");
+  var number7 = document.getElementById("number7");
+  
+  var result3 = document.getElementById("result3");
+  
+  result3.value = 3*Number(number7.value) - 2*Number(number6.value)
+  
+};
 
-		
-		
+
+function clearFunction3() {
+	
+	var number6 = document.getElementById("number6");
+	var number7 = document.getElementById("number7");
+	
+	var result3 = document.getElementById("result3");
+	
+	number6.value = "";
+	number7.value = "";
+	
+	result3.value = "";
+	
+};
