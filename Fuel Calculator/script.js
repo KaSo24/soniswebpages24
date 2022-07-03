@@ -6,7 +6,10 @@ function result() {
 	var number3 = document.getElementById("number3");
 	var result = document.getElementById("result");
 	
-	result.value = (((Number(number1.value)/100) * Number(number2.value))*Number(number3.value));
+	
+	
+	result.value = (Math.round(((((Number(number1.value)/100) * Number(number2.value))*Number(number3.value)) * 100))) / 100
+	
 	
 };
 
